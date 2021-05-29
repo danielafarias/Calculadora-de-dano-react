@@ -1,23 +1,22 @@
 import React from 'react';
 
 class Personagem extends React.Component {
-    constructor(props) {
+    constructor(props){
       super(props);
       this.state = {
-        estilo: 'border: 0px'
-      };
+        borda: ""
+     }
+ }
+
+    criarBorda = (e) => {
+        this.setState({
+          borda: "3px solid blue"
+        })
     }
-    
-    selecionarPersonagem() {
-      const estilo = this.state.estilo
-  
-      if (estilo === null) {
-      this.setState({estilo: 'border: 2px blue solid'})}
-    }
-    
+
     render() {
       return (
-        <div id={this.props.nome} onClick={() => this.props.onClick()} style={this.state.estilo}>
+        <div id={this.props.nome} className='elemento' onClick={this.criarBorda} style={{border: this.state.borda}}>
             <img src={this.props.imagem} width="200px"/>
              <p>{this.props.nome}</p>
         </div>
