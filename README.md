@@ -1,3 +1,7 @@
+# Screenshots
+![calculadora-de-dano-img](https://user-images.githubusercontent.com/79869120/120060912-d33ebf00-c030-11eb-8dc3-fede8799ab3d.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
