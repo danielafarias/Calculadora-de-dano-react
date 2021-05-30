@@ -30,7 +30,8 @@ class Calculadora extends React.Component {
 
     else {
       poderDefesa = 50;
-    }
+    };
+
 
     if (poderAtaque > poderDefesa) {
       this.setState({resposta: `Dado: ${poderAtaque}; Parabéns, você conseguiu derrota-lo!`})
