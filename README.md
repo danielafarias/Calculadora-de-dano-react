@@ -1,5 +1,6 @@
 # Screenshots
-![calculadora-de-dano-img](https://user-images.githubusercontent.com/79869120/120060912-d33ebf00-c030-11eb-8dc3-fede8799ab3d.jpg)
+![calculadora-de-dano-img](https://user-images.githubusercontent.com/79869120/120095657-70ffc000-c0fd-11eb-93bf-35a02974a0b5.jpg)
+
 
 
 # Getting Started with Create React App
