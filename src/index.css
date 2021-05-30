@@ -89,11 +89,13 @@
   font: bold;
 }
 
-#resposta {
+.resposta {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font: bold;
-  margin-bottom: 5px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  letter-spacing: 0.1em;
+  font-weight: 20px;
 }
 

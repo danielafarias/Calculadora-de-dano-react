@@ -5,10 +5,42 @@ import feiticeira from './img/feiticeira.png';
 import arco from './img/arco.png';
 import soco from './img/soco.png';
 import espada from './img/espada.png';
-import Personagem from './Personagem'
-import Arma from './Arma'
+import Personagem from './Personagem';
+import Arma from './Arma';
 
 class Calculadora extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      resposta: ""
+   }
+}
+
+  calcularDano = (e) => {
+    let poderAtaque = Math.floor(Math.random() * 100);
+    let poderDefesa;
+
+    if (Personagem === 'orc') {
+      poderDefesa = 80;
+    }
+
+    else if (Personagem === 'goblin') {
+      poderDefesa = 30;
+    }
+
+    else {
+      poderDefesa = 50;
+    }
+
+    if (poderAtaque > poderDefesa) {
+      this.setState({resposta: `Dado: ${poderAtaque}; Parabéns, você conseguiu derrota-lo!`})
+      }
+
+    else {
+      this.setState({resposta: `Dado: ${poderAtaque}; Uma pena, não foi dessa vez, tente novamente.`})
+    }
+  }
+
     render () {
       return (
       <div id="bloco1">
@@ -35,12 +67,10 @@ class Calculadora extends React.Component {
             <Arma nome="espada" imagem={espada}/>
             </div>
             <div id="bloco7">
-              <button id="botao">Calcular Dano</button>       
+              <button id="botao" onClick={this.calcularDano}>Calcular Dano</button>       
             </div>
-  
-            <div id="resposta">
-  
-            </div>
+
+            <p className="resposta">{this.state.resposta}</p>
   
         </div>
       )
