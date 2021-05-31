@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Calculadora from './componentes/Calculadora'
+import Calculadora from './Calculadora'
 
 
 ReactDOM.render(
