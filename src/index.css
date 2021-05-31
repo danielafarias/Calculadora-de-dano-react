@@ -1,99 +1,102 @@
-#botao {
-  background-color: blue;
-  color: white;
+#calculadora{
+  background-color:whitesmoke;
+  display: flex;
+  border: 3px solid midnightblue;
+  border-radius: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+#calculadora, p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+img {
+  margin: 20px;
+}
+
+#calculadora-header{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: midnightblue;
+  font-family: fantasy;
+}
+
+#bloco1{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bloco2{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  flex-direction: row;
+  align-items: flex-end;
+  
+
+}
+
+#bloco3{
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bloco4{
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#botao{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  color: midnightblue;
+  border-color: midnightblue;
+  border-width: 3px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+.selecionado {
+  border: 3px solid midnightblue;
+  padding: 10px;
+  margin: 5px;
   border-radius: 20px;
-  border-color: blue;
-  border-width: 5px;
+  transition: 0.5s;
+  color: midnightblue;
 }
 
-#bloco1 {
-  background-color: lightgrey;
-  border-radius: 15px;
-  border-color: black;
-  border: solid 1px;
-}
-
-#bloco2 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 20px
-}
-
-#bloco3 {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#bloco4 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#bloco5 {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#bloco6 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#bloco7 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 30px;
-}
-
-#orc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-}
-
-#goblin {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-}
-
-#feiticeira {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-}
-
-#soco {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-}
-
-#arco {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-}
-
-#espada {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-}
 
 #resposta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font: bold;
-  margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-top: 5px;
 }
 
+#botao:hover {
+  cursor: pointer;
+  background-color: midnightblue;
+  color: whitesmoke;
+}
