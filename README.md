@@ -1,5 +1,7 @@
 # Screenshots
-![calculadora-de-dano-img](https://user-images.githubusercontent.com/79869120/120095657-70ffc000-c0fd-11eb-93bf-35a02974a0b5.jpg)
+![calculadora-de-dano2-img1](https://user-images.githubusercontent.com/79869120/120152857-64926a80-c1c4-11eb-90e4-2795ab5f5ba7.jpg)
+![calculadora-de-dano2-img2](https://user-images.githubusercontent.com/79869120/120152865-652b0100-c1c4-11eb-9c72-04bf826366a8.jpg)
+
 
 
 
